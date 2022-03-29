@@ -1,7 +1,7 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Navbar, Container, Nav, NavDropdown} from "react-bootstrap"
+import {Navbar, Container, Nav, NavDropdown, Carousel} from "react-bootstrap"
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
     <Carousel>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100 h-100"
       src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-1214757157.png?crop=1.00xw:0.751xh;0.00160xw,0.134xh&resize=980:*"
       alt="First slide"
     />
@@ -40,7 +40,7 @@ function App() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100 h-100"
       src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/homemade-kimchee-royalty-free-image-1621288320.?crop=0.668xw:1.00xh;0.138xw,0&resize=768:*"
       alt="Second slide"
     />
@@ -52,7 +52,7 @@ function App() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100 h-100"
       src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/soba-royalty-free-image-1621288461.?crop=0.669xw:1.00xh;0.164xw,0&resize=768:*"
       alt="Third slide"
     />
